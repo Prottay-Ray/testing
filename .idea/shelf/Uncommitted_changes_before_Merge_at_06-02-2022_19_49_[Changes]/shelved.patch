@@ -1,0 +1,20 @@
+Index: test.htm
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><!DOCTYPE html>\r\n<html lang=\"en\">\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n    <title>Hare Krishna</title>\r\n</head>\r\n<body>\r\n    <h1>This is feature branch 1 where all works under are done.</h1>\r\n    fdfdfd\r\n    dfdfdffdfdd\r\n</body>\r\n</html>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/test.htm b/test.htm
+--- a/test.htm	(revision d9e4946b46cec03261a49bbf4aedb363e4e34d57)
++++ b/test.htm	(date 1644157123810)
+@@ -8,7 +8,7 @@
+ </head>
+ <body>
+     <h1>This is feature branch 1 where all works under are done.</h1>
+-    fdfdfd
++    <h1>This is feature Hare Krishna 1 where all works under are done.</h1>
+     dfdfdffdfdd
+ </body>
+ </html>
+\ No newline at end of file
